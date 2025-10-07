@@ -6,3 +6,4 @@
   from = "/proxy/*"
   to = "/.netlify/functions/proxy"
   status = 200
+  force = true
