@@ -44,17 +44,6 @@ exports.handler = async (event) => {
         /<body[^>]*>/i,
         m =>
           `${m}
-<br><br>
-<div style="margin:32px auto 24px auto;max-width:900px;border:2px solid green;border-radius:15px;background:#fafafa;padding:16px;text-align:center;font-family:'Tajawal',Arial,sans-serif;font-size:20px;color:#333;box-shadow:0 2px 8px #0001;direction:rtl;line-height:1.8;">
-  <a href="https://3isq.cam/" style="color:green;text-decoration:none;font-weight:bold;">قصة عشق</a>
-  <span style="color:#555;margin:0 8px;">-</span>
-  <a href="https://e3sk.com/" style="color:green;text-decoration:none;font-weight:bold;">مسلسلات</a>
-  <span style="color:#555;margin:0 8px;">-</span>
-  <a href="https://z.3isk.news/video/" style="color:green;text-decoration:none;font-weight:bold;">قصة عشق</a>
-  <span style="color:#555;margin:0 8px;">-</span>
-  <a href="https://ser.q-ask.video/home/" style="color:green;text-decoration:none;font-weight:bold;">قصه عشق</a>
-</div>
-
 
 <div style="margin:10px auto 24px auto;max-width:900px;border:2px solid #d32f2f;border-radius:15px;background:#fff0f0;padding:16px;text-align:center;font-family:'Tajawal',Arial,sans-serif;font-size:19px;color:#b71c1c;box-shadow:0 2px 8px #0001;line-height:1.7;">
   يرجى من صاحب موقع <b>رويال دراما</b> التواصل معي تيليغرام<br>
@@ -110,5 +99,6 @@ exports.handler = async (event) => {
     };
   }
 };
+
 
 
